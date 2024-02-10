@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.container {
+  padding: 20px;
+  font-family: 'Roboto';
+}
+.name-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  padding: 20px;
+  background-size: cover;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.welcome {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.welcom-span {
+  color: #0b69ff;
+}
+.add-transaction-container {
+  border-color: #cbd5e1;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.add-transaction-heading {
+  color: #475569;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.label {
+  display: block;
+  color: #475569;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+.input {
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: 'Roboto';
+  border-radius: 3px;
+  outline: none;
+  width: 100%;
+  border-color: #cbd5e1;
+  font-size: 12px;
+}
+.select {
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  width: 100%;
+  border-color: #cbd5e1;
+}
+.option {
+  margin: 80px;
+  font-size: 15px;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.history-container {
+  border-color: #cbd5e1;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.table-heading-container {
+  border-color: #cbd5e1;
+  border-style: solid;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.table-title-heading {
+  width: 29%;
+  color: #475569;
+  font-size: 15px;
+}
+.table-amount-heading {
+  width: 28%;
+  color: #475569;
+  font-size: 15px;
+}
+.table-type-heading {
+  width: 28%;
+  color: #475569;
+  font-size: 15px;
+}
+.table-delete-btn {
+  width: 15%;
+  color: #475569;
+  font-size: 15px;
+}
+.history-List {
+  padding: 0px;
+  list-style-type: none;
+  margin-top: 0px;
+}

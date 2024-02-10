@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.list-Item {
+  display: flex;
+  align-items: flex-start;
+  border-color: #cbd5e1;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top: none;
+}
+.table-title {
+  width: 29%;
+  color: #475569;
+  font-size: 15px;
+  overflow: auto;
+  padding-right: 5px;
+}
+.table-amount {
+  width: 28%;
+  color: #475569;
+  font-size: 15px;
+  overflow: auto;
+  padding-right: 5px;
+}
+.table-type {
+  width: 28%;
+  color: #475569;
+  font-size: 15px;
+  overflow: auto;
+  padding-right: 5px;
+}
+.table-delete {
+  width: 15%;
+  color: #475569;
+  font-size: 15px;
+}
+.delete-btn-img {
+  width: 20px;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  margin-top: 15px;
+}
